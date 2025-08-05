@@ -3,7 +3,8 @@ import speech_recognition as sr
 from gtts import gTTS
 import tempfile
 import os
-from bot import get_response, get_all_questions
+from vector_search import get_response_vector
+from bot import get_all_questions  # still used for dropdown
 
 def speak(text):
     tts = gTTS(text=text, lang='en')
@@ -48,6 +49,6 @@ if st.button("🎤 Speak"):
 
 if user_input:
     st.write(f"**You:** {user_input}")
-    response = get_response(user_input)
+    response = get_response_vector(user_input)  # semantic search
     st.write(f"**Bot:** {response}")
     speak(response)
