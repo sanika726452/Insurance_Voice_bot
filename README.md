@@ -1,9 +1,3 @@
-Below is a **clean, professional README.md** for your **Insurance Voice Bot (FAISS + Sentence Transformers based)** project.
-
-You can directly copy-paste this into `README.md`.
-
----
-
 # 🎙️ Insurance Voice Bot
 
 ### AI-Powered Insurance Assistant using Vector Search (FAISS)
