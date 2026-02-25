@@ -1,4 +1,4 @@
-# 🎙️ Insurance Voice Bot
+# 🎙️ Insurance Voice/Chat Bot
 
 ### AI-Powered Insurance Assistant using Vector Search (FAISS)
 
