@@ -54,7 +54,7 @@ This allows the bot to understand user queries based on meaning rather than exac
 * SentenceTransformers (`all-MiniLM-L6-v2`)
 * FAISS (Facebook AI Similarity Search)
 * JSON-based intent dataset
-* Streamlit (if app.py used for UI)
+* Streamlit (app.py used for UI)
 
 ---
 
@@ -98,7 +98,7 @@ Contains intents dataset with:
 
 ### `app.py`
 
-* User interface (CLI or Streamlit based)
+* User interface (Streamlit based)
 
 ### `requirements.txt`
 
